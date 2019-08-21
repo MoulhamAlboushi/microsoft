@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} 
 body{
     background-color: aliceblue;
     color: black;
@@ -12,12 +12,13 @@ a{
     color: black;
     text-decoration: none;
 }
-.navbar-header{
-    /* margin: 5px 2rem; */
+header{
     position: sticky;
     top: 0;
-    /* max-width: 11000px; */
-    /* z-index: 10; */
+    background-color: rgba(255, 255, 255, 0.418);
+    width: 100%;
+    z-index: 2;
+
 }
 .navbar{
     justify-content: space-around;
@@ -32,58 +33,35 @@ a{
         padding: 0 0.75rem;
         text-align: center;
 }
-.microsoft-img img{
-   /* position: relative; */
-    /* margin: 2%; */
-    height: 100vh;
-    width: 90%;
-    /* z-index: -1; */
+/* groete microsoft img met text in*/
+.showcace{
+    border: 3px dotted black;
+    position: relative;
 }
-/* .header-img img{
-    width:100%;
-}  */
-/* .back-to-school{
-position: absolute;
-left: 100px;
-color: white;
-height: 700px;
-
-} */
-/* .back-to-school button{
-    padding: 10px 15px;
-    margin: 20px;
+.showcace img{
+     width: 100%;
     
-} */
-/* 
-.product{
-    position: static;
-    display: grid;
-    /* width: 100%; */
-    /* grid-template-columns: repeat(4, 1fr); 
-} */
-/* .product div{
-    display: inline-block;
-
-} */
-/* mobiel */
-/* @media screen and (max-width: 501px){
-    body{
-      /* border: black 1px solid; */
-      /* margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-.navbar-header .navbar{
-    margin: 0;
-    display: grid;
-    grid-template-columns: reapeat(3, 1fr);
-    grid-gap: 1rem;
-    width: 49%;
-}  */
-/* .navbar img{
-width: 100px;
-} */
-/* .navbar li{
-    /* padding: 0;
 }
-} */
+.microsoft-text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color:white
+}
+/*  */
+
+
+/* media screen */
+@media screen and (max-width: 361px){
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+
+
+    }
+    .logo{
+        grid-column:1 /span 4;
+    }
+
+}
