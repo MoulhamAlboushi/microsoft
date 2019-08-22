@@ -48,29 +48,36 @@ header{
     left: 30%;
     color:white
 }
-/*  */
+/* production */
+.production{
+    border: 1px red solid;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
 
-
-/* media screen */
-@media screen and (max-width: 501px){
+/* media screen////////////////////////////////////////////// */
+@media screen and (max-width: 369px){
     .navbar-header{
         display: grid;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-columns:  1fr;
         
         
     }
-    .navbar ,.navebar-grid{
+    .navebar-grid{
         
         display: grid;
         /* grid-template-rows:1fr 1fr; */
-        /* grid-template-columns: repeat(1fr 1fr); */
+        grid-template-columns: 50% 50%
 
 
 
     }
     .logo{
-        grid-column:1 /span 2;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        width: 60%;
     }
 
 }
