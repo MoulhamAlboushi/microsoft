@@ -119,6 +119,15 @@ header{
     padding-top: 8px;
     padding-bottom: 5px;
 }
+.footer-lastlist ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 13px;
+    padding: 5px 0;
+    background-color: blanchedalmond;
+}
 
 /* media screen////////////////////////////////////////////// */
 @media screen and (max-width: 369px){
