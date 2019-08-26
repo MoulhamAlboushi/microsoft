@@ -167,6 +167,23 @@ header{
     .production img{
         margin-top: 10px;
     }
+    .groet-xbox{
+        /* position: static; */
+
+        /* height: 300px; */
+    }
+
+    .text-groet-xbox{
+        bottom: 25px;
+        left: 10px;
+        font-size: 20px;
+    }
+    .text-groet-xbox h2{
+        font-size: 25px;
+    }
+    .groet-xbox img{
+        width: 100%;
+    }
 
 
 
