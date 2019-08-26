@@ -140,6 +140,9 @@ header{
         margin: 0;
         padding: 0;
     }
+    .navbar{
+        background-color: rgba(139, 195, 247, 0.685);
+    }
 
     .navbarpx ul {
         /* width: 100%; */
@@ -150,6 +153,28 @@ header{
         grid-template-columns: 2fr; */
         
     }
+
+    .microsoft-text h1{
+        top: 0px;
+        /* padding: 0;
+        margin: 0; */
+        font-size: 30px;
+        /* text-align: center */
+    }
+    .production{
+        display: block;
+    }
+    .production img{
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
     /* .logo{
         grid-column-start: 1;
         grid-column-end: 3;
