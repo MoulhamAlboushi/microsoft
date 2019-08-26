@@ -178,8 +178,12 @@ header{
         left: 10px;
         font-size: 20px;
     }
-    .text-groet-xbox h2{
-        font-size: 25px;
+    .text-groet-xbox h2 {
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+    .text-groet-xbox p{
+        font-size: 14px;
     }
     .groet-xbox img{
         width: 100%;
