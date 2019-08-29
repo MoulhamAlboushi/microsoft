@@ -45,7 +45,7 @@ header{
 }
 .navbar{
     justify-content: space-around;
-        border: 1px black solid;
+        /* border: 1px black solid; */
         align-items: center;
         display: flex;
         flex-wrap: wrap;
