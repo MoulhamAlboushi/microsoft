@@ -154,9 +154,7 @@ text-align: center;
     padding-bottom: 1rem;
     background-color: blanchedalmond;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
-
 /* media screen////////////////////////////////////////////// */
 @media screen and (max-width: 500px){
     body{
