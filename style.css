@@ -82,11 +82,14 @@ text-align: center;
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-columns: 1fr 1fr; */
     /* grid-template-columns: repeat(5, fr); */
-    /* grid-gap: 1rem; */
+    grid-gap: 1rem;
     /* grid-template-rows: repeat(2, 1fr); */
     grid-template-rows: 400px 500px 50px 400px;
     text-align: center;
     justify-content: center;
+    /* max-width: 88%; */
+   
+
     /* width: 100%; */
     /* grid-template-rows: 1fr .75fr 1fr 1fr; */
 }
