@@ -75,7 +75,7 @@ text-align: center;
 }
     
 .production{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     display: grid;
     /* display: flex;
     flex-wrap: wrap; */
@@ -151,8 +151,10 @@ text-align: center;
     justify-content: space-around;
     font-size: 14px;
     padding-top: 1.7rem;
+    padding-bottom: 1rem;
     background-color: blanchedalmond;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 /* media screen////////////////////////////////////////////// */
